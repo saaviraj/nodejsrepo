@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('welcome SADHIX server');
+  res.send('welcome TO DEV SERVER ');
 });
 
 app.get('/health', (req, res) => {
